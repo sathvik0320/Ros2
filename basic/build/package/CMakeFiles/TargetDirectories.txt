@@ -1,0 +1,9 @@
+/home/sathvik/git/Ros2/basic/build/package/CMakeFiles/uninstall.dir
+/home/sathvik/git/Ros2/basic/build/package/CMakeFiles/package_uninstall.dir
+/home/sathvik/git/Ros2/basic/build/package/CMakeFiles/test.dir
+/home/sathvik/git/Ros2/basic/build/package/CMakeFiles/edit_cache.dir
+/home/sathvik/git/Ros2/basic/build/package/CMakeFiles/rebuild_cache.dir
+/home/sathvik/git/Ros2/basic/build/package/CMakeFiles/list_install_components.dir
+/home/sathvik/git/Ros2/basic/build/package/CMakeFiles/install.dir
+/home/sathvik/git/Ros2/basic/build/package/CMakeFiles/install/local.dir
+/home/sathvik/git/Ros2/basic/build/package/CMakeFiles/install/strip.dir

@@ -1,0 +1,15 @@
+<?xml version ="1.0"?>
+<robot name = "car">
+   <!-- link is the rigid part of the robot base_link will base of the car-->
+   <link name ="base">
+      <visual>
+        <geometry>
+             <box size ="0.6 0.4 0.2" />
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+      </visual>
+   </link>
+
+
+
+</robot>

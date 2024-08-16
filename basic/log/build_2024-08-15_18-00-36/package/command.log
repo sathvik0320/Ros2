@@ -1,0 +1,4 @@
+Invoking command in '/home/sathvik/git/Ros2/basic/build/package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/sathvik/git/Ros2/basic/build/package -- -j4 -l4
+Invoked command in '/home/sathvik/git/Ros2/basic/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/sathvik/git/Ros2/basic/build/package -- -j4 -l4
+Invoking command in '/home/sathvik/git/Ros2/basic/build/package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/sathvik/git/Ros2/basic/build/package
+Invoked command in '/home/sathvik/git/Ros2/basic/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/sathvik/git/Ros2/basic/build/package

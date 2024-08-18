@@ -1,6 +1,6 @@
 <?xml version ="1.0"?>
 <robot name = "car">
-   <!-- we use radians not degrees -->
+   <!-- we use radians not degrees 90^.is 1,57-->
    <!-- link is the rigid part of the robot base_link will base of the car-->
    <material name ="white">
       <color rgba ="1 1 1 1" />

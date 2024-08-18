@@ -1,0 +1,23 @@
+<?xml version ="1.0"?>
+<robot name="car">
+
+<gazebo reference="base_link">
+</gazebo>
+
+   <link name="base_link">
+     <visual>
+           <geometry>
+               <box size="0.6 0.4 0.2" />
+           </geometry>
+           <origin xyz="0 0 0" rpy="0 0 0" /> 
+     </visual>
+     <collision>
+           <geometry>
+               <box size="0.6 0.4 0.2" />
+           </geometry>
+           <origin xyz="0 0 0" rpy="0 0 0" />
+     </collision>  
+   </link>
+
+</robot>
+

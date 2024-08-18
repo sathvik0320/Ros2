@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+   <!-- Argument for robot description -->
+   <arg name="robot_description" default="home/sathvik/git/Ros2/gbasic/package/urdf/robo.urdf" />
+
+   <!-- Node to start Gazebo server -->
+   <node pkg="gazebo_ros" exec="gzserver" name="gazebo" output="screen">
+      <param name="use_sim_time" value="true" />
+   </node>
+
+   <!-- Node to start Gazebo client -->
+   <node pkg="gazebo_ros" exec="gzclient" name="gazebo_client" output="screen" />
+
+   <!-- Spawn the robot in Gazebo -->
+   <node pkg="gazebo_ros" exec="spawn_entity.py" name="spawn_entity" output="screen">
+        <param name="robot_namespace" value="robot_namespace" />
+        <param name="robot_name" value="car" />
+        <param name="robot_description" value="$(arg robot_description)" />
+        <param name="initial_pose" value="{'x': 0.0, 'y': 0.0, 'z': 0.1}" />
+   </node>
+</launch>

@@ -1,0 +1,24 @@
+[0.009s] Invoking command in '/home/sathvik/git/Ros2/gbasic/build/package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/sathvik/git/Ros2/gbasic/build/package -- -j4 -l4
+[0.050s] Invoked command in '/home/sathvik/git/Ros2/gbasic/build/package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/sathvik/git/Ros2/gbasic/build/package -- -j4 -l4
+[0.075s] Invoking command in '/home/sathvik/git/Ros2/gbasic/build/package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/sathvik/git/Ros2/gbasic/build/package
+[0.082s] -- Install configuration: ""
+[0.083s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/launch
+[0.083s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/launch/launch.py
+[0.083s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/urdf
+[0.083s] -- Installing: /home/sathvik/git/Ros2/gbasic/install/package/share/package/urdf/robo.urdf
+[0.083s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/ament_index/resource_index/package_run_dependencies/package
+[0.083s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/ament_index/resource_index/parent_prefix_path/package
+[0.083s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/environment/ament_prefix_path.sh
+[0.083s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/environment/ament_prefix_path.dsv
+[0.083s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/environment/path.sh
+[0.084s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/environment/path.dsv
+[0.084s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/local_setup.bash
+[0.084s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/local_setup.sh
+[0.084s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/local_setup.zsh
+[0.084s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/local_setup.dsv
+[0.084s] -- Installing: /home/sathvik/git/Ros2/gbasic/install/package/share/package/package.dsv
+[0.084s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/ament_index/resource_index/packages/package
+[0.084s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/cmake/packageConfig.cmake
+[0.084s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/cmake/packageConfig-version.cmake
+[0.084s] -- Up-to-date: /home/sathvik/git/Ros2/gbasic/install/package/share/package/package.xml
+[0.085s] Invoked command in '/home/sathvik/git/Ros2/gbasic/build/package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/sathvik/git/Ros2/gbasic/build/package

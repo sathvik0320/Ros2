@@ -1,1 +1,1 @@
-gazebo_ros
+gazebo_ros:robot_state_publisher:xacro

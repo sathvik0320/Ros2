@@ -1,0 +1,139 @@
+[5.589s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.589s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b6a98547880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b6a9865ff40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b6a9865ff40>>, mixin_verb=('build',))
+[11.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.092s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sathvik/git/Ros2/gbasic'
+[11.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/package) by extensions ['ignore', 'ignore_ament_install']
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/package) by extension 'ignore'
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/package) by extension 'ignore_ament_install'
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/package) by extensions ['colcon_pkg']
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/package) by extension 'colcon_pkg'
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/package) by extensions ['colcon_meta']
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/package) by extension 'colcon_meta'
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/package) by extensions ['ros']
+[11.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/package) by extension 'ros'
+[11.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/package' with type 'ros.ament_cmake' and name 'package'
+[11.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[11.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[11.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[11.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[11.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[11.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[11.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[11.486s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sathvik/git/Ros2/gbasic/install
+[11.489s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/iron
+[11.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[11.615s] Level 5:colcon.colcon_core.verb:set package 'package' build argument 'cmake_args' from command line to 'None'
+[11.615s] Level 5:colcon.colcon_core.verb:set package 'package' build argument 'cmake_target' from command line to 'None'
+[11.615s] Level 5:colcon.colcon_core.verb:set package 'package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.615s] Level 5:colcon.colcon_core.verb:set package 'package' build argument 'cmake_clean_cache' from command line to 'False'
+[11.615s] Level 5:colcon.colcon_core.verb:set package 'package' build argument 'cmake_clean_first' from command line to 'False'
+[11.615s] Level 5:colcon.colcon_core.verb:set package 'package' build argument 'cmake_force_configure' from command line to 'False'
+[11.615s] Level 5:colcon.colcon_core.verb:set package 'package' build argument 'ament_cmake_args' from command line to 'None'
+[11.615s] Level 5:colcon.colcon_core.verb:set package 'package' build argument 'catkin_cmake_args' from command line to 'None'
+[11.615s] Level 5:colcon.colcon_core.verb:set package 'package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.615s] DEBUG:colcon.colcon_core.verb:Building package 'package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sathvik/git/Ros2/gbasic/build/package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sathvik/git/Ros2/gbasic/install/package', 'merge_install': False, 'path': '/home/sathvik/git/Ros2/gbasic/src/package', 'symlink_install': False, 'test_result_base': None}
+[11.615s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[11.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[11.616s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sathvik/git/Ros2/gbasic/src/package' with build type 'ament_cmake'
+[11.616s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sathvik/git/Ros2/gbasic/src/package'
+[11.889s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[11.890s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.890s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sathvik/git/Ros2/gbasic/build/package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/sathvik/git/Ros2/gbasic/build/package -- -j4 -l4
+[13.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sathvik/git/Ros2/gbasic/build/package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/sathvik/git/Ros2/gbasic/build/package -- -j4 -l4
+[13.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sathvik/git/Ros2/gbasic/build/package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/sathvik/git/Ros2/gbasic/build/package
+[13.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package)
+[13.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sathvik/git/Ros2/gbasic/build/package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/sathvik/git/Ros2/gbasic/build/package
+[13.420s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package' for CMake module files
+[13.421s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package' for CMake config files
+[13.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('package', 'cmake_prefix_path')
+[13.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sathvik/git/Ros2/gbasic/install/package/share/package/hook/cmake_prefix_path.ps1'
+[13.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sathvik/git/Ros2/gbasic/install/package/share/package/hook/cmake_prefix_path.dsv'
+[13.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sathvik/git/Ros2/gbasic/install/package/share/package/hook/cmake_prefix_path.sh'
+[13.434s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package/bin'
+[13.434s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package/lib/pkgconfig/package.pc'
+[13.435s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package/lib/python3.10/site-packages'
+[13.435s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package/bin'
+[13.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/sathvik/git/Ros2/gbasic/install/package/share/package/package.ps1'
+[13.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sathvik/git/Ros2/gbasic/install/package/share/package/package.dsv'
+[13.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/sathvik/git/Ros2/gbasic/install/package/share/package/package.sh'
+[13.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/sathvik/git/Ros2/gbasic/install/package/share/package/package.bash'
+[13.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/sathvik/git/Ros2/gbasic/install/package/share/package/package.zsh'
+[13.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sathvik/git/Ros2/gbasic/install/package/share/colcon-core/packages/package)
+[13.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package)
+[13.489s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package' for CMake module files
+[13.489s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package' for CMake config files
+[13.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('package', 'cmake_prefix_path')
+[13.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sathvik/git/Ros2/gbasic/install/package/share/package/hook/cmake_prefix_path.ps1'
+[13.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sathvik/git/Ros2/gbasic/install/package/share/package/hook/cmake_prefix_path.dsv'
+[13.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sathvik/git/Ros2/gbasic/install/package/share/package/hook/cmake_prefix_path.sh'
+[13.491s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package/bin'
+[13.491s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package/lib/pkgconfig/package.pc'
+[13.491s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package/lib/python3.10/site-packages'
+[13.491s] Level 1:colcon.colcon_core.environment:checking '/home/sathvik/git/Ros2/gbasic/install/package/bin'
+[13.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/sathvik/git/Ros2/gbasic/install/package/share/package/package.ps1'
+[13.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sathvik/git/Ros2/gbasic/install/package/share/package/package.dsv'
+[13.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/sathvik/git/Ros2/gbasic/install/package/share/package/package.sh'
+[13.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/sathvik/git/Ros2/gbasic/install/package/share/package/package.bash'
+[13.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/sathvik/git/Ros2/gbasic/install/package/share/package/package.zsh'
+[13.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sathvik/git/Ros2/gbasic/install/package/share/colcon-core/packages/package)
+[13.493s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.494s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.514s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.514s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.514s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.531s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sathvik/git/Ros2/gbasic/install/local_setup.ps1'
+[13.533s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sathvik/git/Ros2/gbasic/install/_local_setup_util_ps1.py'
+[13.556s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sathvik/git/Ros2/gbasic/install/setup.ps1'
+[13.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sathvik/git/Ros2/gbasic/install/local_setup.sh'
+[13.558s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sathvik/git/Ros2/gbasic/install/_local_setup_util_sh.py'
+[13.559s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sathvik/git/Ros2/gbasic/install/setup.sh'
+[13.560s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sathvik/git/Ros2/gbasic/install/local_setup.bash'
+[13.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sathvik/git/Ros2/gbasic/install/setup.bash'
+[13.561s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sathvik/git/Ros2/gbasic/install/local_setup.zsh'
+[13.562s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sathvik/git/Ros2/gbasic/install/setup.zsh'

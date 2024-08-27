@@ -13,7 +13,7 @@ from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
 
 
-    launch.actions.DeclareLaunchArgument(name="gui",default_value="False",description="this is for joint state publisher true for gui")
+    #launch.actions.DeclareLaunchArgument(name="gui",default_value="False",description="this is for joint state publisher true for gui")
     #gui = LaunchConfiguration("gui")
     #print(gui)
 
@@ -47,11 +47,11 @@ def generate_launch_description():
 
     #spawn the urdf content into gazebo simulation
     #Node or lauch_ros.actions.Node same
-    jointstate = launch_ros.actions.Node(
-                 package="joint_state_publisher",
-                 executable="joint_state_publisher",
-                 name="joint_state_publisher",
-                 parameters=[robot_info,{"use_sim_time":True}])
+    #jointstate = launch_ros.actions.Node(
+    #             package="joint_state_publisher",
+    #             executable="joint_state_publisher",
+    #             name="joint_state_publisher",
+    #             parameters=[{"use_sim_time":True}])
 
     spawning = launch_ros.actions.Node(
                package="gazebo_ros",
@@ -70,7 +70,7 @@ def generate_launch_description():
     Launch=LaunchDescription()
     Launch.add_action(gazebo)
     Launch.add_action(robotstate)
-    Launch.add_action(jointstate)
+    #Launch.add_action(jointstate)
     Launch.add_action(spawning)
     #Launch.add_action(jointstategui)
 

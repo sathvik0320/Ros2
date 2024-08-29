@@ -1,0 +1,2 @@
+Invoking command in '/home/sathvik/git/Ros2/rosnav2/build/package': /usr/bin/cmake --build /home/sathvik/git/Ros2/rosnav2/build/package -- -j4 -l4
+Invoked command in '/home/sathvik/git/Ros2/rosnav2/build/package' returned '2': /usr/bin/cmake --build /home/sathvik/git/Ros2/rosnav2/build/package -- -j4 -l4

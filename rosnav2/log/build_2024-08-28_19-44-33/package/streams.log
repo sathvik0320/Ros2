@@ -1,0 +1,25 @@
+[0.134s] Invoking command in '/home/sathvik/git/Ros2/rosnav2/build/package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/sathvik/git/Ros2/rosnav2/build/package -- -j4 -l4
+[0.690s] Invoked command in '/home/sathvik/git/Ros2/rosnav2/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/sathvik/git/Ros2/rosnav2/build/package -- -j4 -l4
+[0.717s] Invoking command in '/home/sathvik/git/Ros2/rosnav2/build/package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/sathvik/git/Ros2/rosnav2/build/package
+[0.724s] -- Install configuration: ""
+[0.729s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/launch
+[0.729s] -- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/launch/launch.py
+[0.730s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/urdf
+[0.730s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/urdf/robo.urdf
+[0.730s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/urdf/file.world
+[0.740s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/ament_index/resource_index/package_run_dependencies/package
+[0.740s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/ament_index/resource_index/parent_prefix_path/package
+[0.741s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/environment/ament_prefix_path.sh
+[0.741s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/environment/ament_prefix_path.dsv
+[0.741s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/environment/path.sh
+[0.741s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/environment/path.dsv
+[0.741s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/local_setup.bash
+[0.741s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/local_setup.sh
+[0.741s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/local_setup.zsh
+[0.741s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/local_setup.dsv
+[0.741s] -- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/package.dsv
+[0.741s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/ament_index/resource_index/packages/package
+[0.742s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/cmake/packageConfig.cmake
+[0.742s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/cmake/packageConfig-version.cmake
+[0.742s] -- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/package.xml
+[0.744s] Invoked command in '/home/sathvik/git/Ros2/rosnav2/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/sathvik/git/Ros2/rosnav2/build/package

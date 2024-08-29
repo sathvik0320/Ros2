@@ -1,0 +1,45 @@
+[0.009s] Invoking command in '/home/sathvik/git/Ros2/rosnav2/build/package': /usr/bin/cmake --build /home/sathvik/git/Ros2/rosnav2/build/package -- -j4 -l4
+[0.034s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.168s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.213s] Error parsing '/home/sathvik/git/Ros2/rosnav2/src/package/package.xml':
+[0.257s] Traceback (most recent call last):
+[0.257s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.257s]     root = dom.parseString(data)
+[0.257s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[0.257s]     return expatbuilder.parseString(string)
+[0.257s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.258s]     return builder.parseString(string)
+[0.258s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.258s]     parser.Parse(string, True)
+[0.258s] xml.parsers.expat.ExpatError: mismatched tag: line 23, column 2
+[0.258s] 
+[0.258s] During handling of the above exception, another exception occurred:
+[0.258s] 
+[0.258s] Traceback (most recent call last):
+[0.258s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.258s]     main()
+[0.258s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.258s]     raise e
+[0.258s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.258s]     package = parse_package_string(
+[0.258s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.258s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.258s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/sathvik/git/Ros2/rosnav2/src/package/package.xml':
+[0.259s] The manifest contains invalid XML:
+[0.259s] mismatched tag: line 23, column 2
+[0.272s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.272s]   execute_process(/usr/bin/python3.10
+[0.273s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.273s]   /home/sathvik/git/Ros2/rosnav2/src/package/package.xml
+[0.273s]   /home/sathvik/git/Ros2/rosnav2/build/package/ament_cmake_core/package.cmake)
+[0.273s]   returned error code 1
+[0.273s] Call Stack (most recent call first):
+[0.273s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.273s]   /opt/ros/iron/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.273s]   CMakeLists.txt:29 (ament_lint_auto_find_test_dependencies)
+[0.273s] 
+[0.273s] [0m
+[0.273s] -- Configuring incomplete, errors occurred!
+[0.273s] See also "/home/sathvik/git/Ros2/rosnav2/build/package/CMakeFiles/CMakeOutput.log".
+[0.274s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.276s] Invoked command in '/home/sathvik/git/Ros2/rosnav2/build/package' returned '2': /usr/bin/cmake --build /home/sathvik/git/Ros2/rosnav2/build/package -- -j4 -l4

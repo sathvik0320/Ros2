@@ -1,0 +1,254 @@
+<?xml version ="1.0"?>
+<robot name="car" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+  <link name ="base_footprint">
+  </link>
+
+  <link name="base_link">
+    <visual>
+          <geometry>
+                <box size="0.6 0.4 0.2" />
+          </geometry>
+          <origin xyz="0 0 0.1" rpy="0 0 0" /> 
+          <material  name="White">
+              <color rgba="1.0 1.0 1.0 1.0" />
+          </material>
+    </visual>
+
+    <collision>
+          <geometry>
+                <box size="0.6 0.4 0.2" />
+          </geometry>
+          <origin xyz="0 0 0.1" rpy="0 0 0" />
+    </collision>
+    <inertial>
+      <mass value ="1.0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <inertia ixx="0.0167" ixy="0.0" ixz="0.0" iyy="0.0333" iyz="0.0" izz="0.0433" />
+    </inertial>
+  </link>
+
+  <joint name="base_joint" type="fixed">
+    <parent link ="base_footprint" />
+    <child link = "base_link" />
+  </joint>
+
+  <gazebo reference = "base_link">
+    <material>Gazebo/White</material>
+  </gazebo>
+
+
+  <link name ="wheel_r">
+    <visual>
+        <geometry>
+           <cylinder length="0.05" radius="0.1" />
+        </geometry>
+        <origin xyz="0 0 0" rpy="1.57 0 0" />
+        <material name="Black">
+            <color rgba= "0 0 0 1.0" />
+        </material>    
+    </visual>
+    <collision>
+        <geometry>
+           <cylinder length="0.05" radius="0.1" />
+        </geometry>
+        <origin xyz="0 0 0" rpy="1.57 0 0" />
+    </collision>
+    <inertial>
+      <mass value ="1.0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <inertia ixx="0.00271" ixy="0.0" ixz="0.0" iyy="0.00271" iyz="0.0" izz="0.005" />
+    </inertial>
+  </link>
+  <joint name="right_joint" type ="continuous" >
+    <parent link="base_link" />
+    <child link="wheel_r" />
+    <axis xyz="0 1 0" />
+    <origin xyz="-0.15 -0.225 0" rpy="0 0 0" />
+  </joint>
+  <gazebo reference="wheel_r">
+     <mu1>0.2</mu1>
+     <mu2>0.2</mu2>
+     <material>Gazebo/Black</material>
+  </gazebo>
+
+  <link name="wheel_l">
+    <visual>
+        <geometry>
+            <cylinder length="0.05" radius="0.1" />
+        </geometry>
+        <origin xyz="0 0 0" rpy= "1.57 0 0" />
+        <material name="Black">
+            <color rgba="0 0 0 1.0" />
+        </material>
+    </visual>
+
+    <collision>
+           <geometry>
+              <cylinder radius="0.1" length="0.05" />
+           </geometry>
+           <origin xyz="0 0 0" rpy= "1.57 0 0" />
+    </collision>
+    <inertial>
+      <mass value ="1.0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <inertia ixx="0.00271" ixy="0.0" ixz="0.0" iyy="0.00271" iyz="0.0" izz="0.005" />
+    </inertial>
+  </link>
+
+  <joint name="left_joint" type ="continuous" >
+    <parent link ="base_link" />
+    <child link="wheel_l" />
+    <origin xyz="-0.15 0.225 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+  </joint>
+
+  <gazebo reference="wheel_l" >
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <link name="caster_wheel">
+    <visual>
+        <geometry>
+            <sphere radius="0.05" />
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <material name="Black">
+             <color rgba="0 0 0 1.0" />
+        </material>
+    </visual>
+
+    <collision>
+        <geometry>
+             <sphere radius="0.05" />
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </collision>
+    <inertial>
+        <mass value="1.0" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+    </inertial>
+  </link>
+
+  <joint name="caster_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="caster_wheel" />
+    <origin xyz="0.2 0 -0.05" rpy="0 0 0" />
+  </joint>
+
+  <gazebo reference="caster_wheel">
+     <material>Gazebo/Black</material>
+     <mu1>0.0002</mu1>
+     <mu2>0.0002</mu2>
+  </gazebo>
+
+  <link name="lidar_link">
+     <visual>
+        <geometry>
+            <cylinder length="0.05" radius="0.1" />
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <material name="Black" >
+           <color rgba="0 0 0 1.0" />
+        </material>
+     </visual>
+ 
+     <collision>
+         <geometry>
+            <cylinder length="0.05" radius="0.1" />
+         </geometry>
+         <origin xyz="0 0 0" rpy="0 0 0" />
+     </collision>
+
+     <inertial>
+          <mass value ="1.0" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <inertia ixx="0.00271" ixy="0.0" ixz="0.0" iyy="0.00271" iyz="0.0" izz="0.005" />
+     </inertial>
+  </link>
+  <joint name="lidar_joint" type="fixed">
+      <parent link="base_link" />
+      <child link="lidar_link" />
+      <origin xyz="0 0 0.225" rpy="0 0 0" />
+      <axis xyz="0 0 0" /> 
+  </joint>
+
+  <gazebo reference="lidar_link">
+    <sensor name="lidar" type="ray">
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+      <update_rate>5</update_rate>
+      <ray>
+        <scan>
+           <horizontal>
+              <samples>360</samples>
+              <resolution>1.000</resolution>
+              <min_angle>0.000000</min_angle>
+              <max_angle>7.280000</max_angle>
+           </horizontal>
+        </scan>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+        <range>
+          <min>0.120000</min>
+          <max>7.0</max>
+          <resolution>0.015</resolution>
+        </range>
+      </ray>
+      <plugin name="scan" filename="libgazebo_ros_ray_sensor.so" >
+        <ros>
+          <remapping>~/out:=scan</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>lidar_link</frame_name>
+     
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <gazebo reference="lidar">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo>
+      <!-- Use gazebo_ros_joint_state_publisher instead of publishWheelJointState -->
+      <plugin name="joint_states" filename="libgazebo_ros_joint_state_publisher.so">
+        <joint_name>right_joint</joint_name>
+        <joint_name>left_joint</joint_name>
+      </plugin>
+  </gazebo>
+
+  <gazebo>
+     <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so" >
+        <ros>
+            <namespace></namespace>
+            <!-- <remapping>cmd_vel:=/cmd_vel</remapping> -->
+            <!-- <remapping>odom:=/odom</remapping> -->
+        </ros>
+        <num_wheel_pairs>1</num_wheel_pairs>
+        <left_joint>left_joint</left_joint>
+        <right_joint>right_joint</right_joint>
+        <wheel_separation>0.45</wheel_separation>
+
+        <wheel_diameter>0.1</wheel_diameter>
+        <max_wheel_torque>500</max_wheel_torque>
+        <max_wheel_acceleration>4.0</max_wheel_acceleration>
+        
+        <!-- output -->
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_footprint</robot_base_frame>
+
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>true</publish_odom_tf>
+        <publish_wheel_tf>true</publish_wheel_tf>
+
+   
+     </plugin>
+  </gazebo>
+
+</robot>

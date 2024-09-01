@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/launch
+-- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/launch/local_params.yaml
+-- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/launch/slammap.yaml
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/launch/slammap.pgm
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/launch/launch.py
+-- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/launch/nav2params.yaml
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/launch/.launch.py.swp
+-- Up-to-date: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/urdf
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/urdf/robo.urdf
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/urdf/file.world
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/ament_index/resource_index/package_run_dependencies/package
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/ament_index/resource_index/parent_prefix_path/package
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/environment/ament_prefix_path.sh
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/environment/ament_prefix_path.dsv
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/environment/path.sh
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/environment/path.dsv
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/local_setup.bash
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/local_setup.sh
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/local_setup.zsh
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/local_setup.dsv
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/package.dsv
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/ament_index/resource_index/packages/package
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/cmake/packageConfig.cmake
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/cmake/packageConfig-version.cmake
+-- Installing: /home/sathvik/git/Ros2/rosnav2/install/package/share/package/package.xml

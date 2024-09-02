@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<robot name="drone">
+
+     <!-- virtual link -->
+     <link name="base_footprint">
+     </link>
+     <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.5 0.3 0.1" />
+            </geometry>
+            <origin xyz="0 0 0" rpy ="0 0 0" />
+        </visual>
+        <collsion>
+            <geometry>
+                <box size="0.5 0.3 0.1" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <inertial>
+           <mass value="" />
+           <origin xyz="0 0 0" rpy="0 0 0" />
+           <inertia />
+        </inertial>
+     </link>
+
+
+     <!-- virtual joint -->
+     <joint name="base_joint" type="fixed">
+        <parent link ="base_footprint" >
+        <child link ="base_link">
+     </joint>
+
+     <!-- arm1 -->
+     <link name="arm1">
+         <visual>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </visual>
+         <collision>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="" rpy="" />
+         </collision>
+         <inertial>
+            <mass value="" />
+            <inertia ixx="" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </inertial>
+     </link>
+
+          <!-- arm2 -->
+     <link name="arm1">
+         <visual>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </visual>
+         <collision>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="" rpy="" />
+         </collision>
+         <inertial>
+            <mass value="" />
+            <inertia ixx="" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </inertial>
+     </link>
+
+
+          <!-- arm3 -->
+     <link name="arm1">
+         <visual>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </visual>
+         <collision>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="" rpy="" />
+         </collision>
+         <inertial>
+            <mass value="" />
+            <inertia ixx="" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </inertial>
+     </link>
+  
+
+          <!-- arm4 -->
+     <link name="arm1">
+         <visual>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </visual>
+         <collision>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="" rpy="" />
+         </collision>
+         <inertial>
+            <mass value="" />
+            <inertia ixx="" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </inertial>
+     </link>
+
+    
+
+     <!-- motors -->
+     <link name="motor1">
+         <visual>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </visual>
+         <collision>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="" rpy="" />
+         </collision>
+         <inertial>
+            <mass value="" />
+            <inertia ixx="" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </inertial>
+     </link>
+
+     <link name="motor2">
+         <visual>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </visual>
+         <collision>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="" rpy="" />
+         </collision>
+         <inertial>
+            <mass value="" />
+            <inertia ixx="" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </inertial>
+     </link>
+
+     <link name="motor3">
+         <visual>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </visual>
+         <collision>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="" rpy="" />
+         </collision>
+         <inertial>
+            <mass value="" />
+            <inertia ixx="" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </inertial>
+     </link>
+
+     <link name="motor4">
+         <visual>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </visual>
+         <collision>
+            <geometry>
+                 <cylinder length="" radius="" />
+            </geometry>
+            <origin xyz="" rpy="" />
+         </collision>
+         <inertial>
+            <mass value="" />
+            <inertia ixx="" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+         </inertial>
+     </link>
+
+ 
+     
+
+     <!-- joints -->
+     <joint name="joint_1" type="fixed">
+          <parent link ="base_link" />
+          <child link="arm1" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <axis xyz="0 0 0" rpy="0 0 0" />
+     </joint>
+
+     <joint name="joint_2" type="fixed">
+          <parent link ="base_link" />
+          <child link="arm2" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <axis xyz="0 0 0" rpy="0 0 0" />
+     </joint>
+
+     <joint name="joint_3" type="fixed">
+          <parent link ="base_link" />
+          <child link="arm3" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <axis xyz="0 0 0" rpy="0 0 0" />
+     </joint>
+
+     <joint name="joint_4" type="fixed">
+          <parent link ="base_link" />
+          <child link="arm4" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <axis xyz="0 0 0" rpy="0 0 0" />
+     </joint
+
+     <joint name="joint_m1" type="continuous">
+          <parent link ="arm1" />
+          <child link="motor1" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <axis xyz="0 0 0" rpy="0 0 0" />
+     </joint
+
+     <joint name="joint_m2" type="continuous">
+          <parent link ="arm2" />
+          <child link="motor2" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <axis xyz="0 0 0" rpy="0 0 0" />
+     </joint
+
+
+     <joint name="joint_m3" type="continuous">
+          <parent link ="arm3" />
+          <child link="motor3" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <axis xyz="0 0 0" rpy="0 0 0" />
+     </joint
+
+     <joint name="joint_m4" type="continuous">
+          <parent link ="arm4" />
+          <child link="motor4" />
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <axis xyz="0 0 0" rpy="0 0 0" />
+     </joint
+  
+
+
+     <!-- we can use <material name="" color rbga="0 0 0 1" /> for color-->
+     <gazebo reference ="base_link" >
+         <mu1>0.2</mu1>
+         <mu2>0.2</mu2>
+         <material>Gazebo/White</material>
+     </gazebo>
+
+     <gazebo reference ="arm1" >
+         <mu1>0.2</mu1>
+         <mu2>0.2</mu2>
+         <material>Gazebo/Orange</material>
+     </gazebo>
+
+     <gazebo reference ="arm2" >
+         <mu1>0.2</mu1>
+         <mu2>0.2</mu2>
+         <material>Gazebo/Orange</material>
+     </gazebo>
+
+     <gazebo reference ="arm3" >
+         <mu1>0.2</mu1>
+         <mu2>0.2</mu2>
+         <material>Gazebo/Orange</material>
+     </gazebo>
+
+     <gazebo reference ="arm4" >
+         <mu1>0.2</mu1>
+         <mu2>0.2</mu2>
+         <material>Gazebo/Orange</material>
+     </gazebo>
+
+
+     <gazebo reference ="motor1" >
+         <mu1>0.2</mu1>
+         <mu2>0.2</mu2>
+         <material>Gazebo/Black</material>
+     </gazebo>
+
+     <gazebo reference ="motor2" >
+         <mu1>0.2</mu1>
+         <mu2>0.2</mu2>
+         <material>Gazebo/Black</material>
+     </gazebo>
+
+     <gazebo reference ="motor3" >
+         <mu1>0.2</mu1>
+         <mu2>0.2</mu2>
+         <material>Gazebo/Black</material>
+     </gazebo>
+
+     <gazebo reference ="motor4" >
+         <mu1>0.2</mu1>
+         <mu2>0.2</mu2>
+         <material>Gazebo/Black</material>
+     </gazebo>
+
+
+     <!-- gazebo plugins -->
+     
+
+
+</robot>

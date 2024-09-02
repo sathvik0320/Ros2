@@ -110,9 +110,9 @@ def generate_launch_description():
 
       param_file=os.path.join(get_package_share_directory(packagename),"launch","nav2params.yaml")
       #navgatio node with another launch file
-      navlaunchfile = PythonLaunchDescriptionSource(os.path.join(get_package_share_directory('nav2_bringup'), 'launch', 'navigation_launch.py'))
+      navlaunchfile = PythonLaunchDescriptionSource(os.path.join(get_package_share_directory('nav2_bringup'), 'launch', 'bringup_launch.py'))
       #we need to include this launch description
-      navlaunch = IncludeLaunchDescription(navlaunchfile,launch_arguments={"map":map_path,"use_sim_time":"True",'params_file':param_file}.items())
+      navlaunch = IncludeLaunchDescription(navlaunchfile,launch_arguments={"map":map_path,'params_file':param_file}.items())
 
 
       #condition = launch.conditions.UnlessCondition(LaunchConfiguration("gui")))

@@ -1,0 +1,49 @@
+[0.035s] Invoking command in '/home/sathvik/git/Ros2/drone/build/package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/sathvik/git/Ros2/drone/src/package -DCMAKE_INSTALL_PREFIX=/home/sathvik/git/Ros2/drone/install/package
+[1.833s] -- The C compiler identification is GNU 11.4.0
+[2.429s] -- The CXX compiler identification is GNU 11.4.0
+[2.437s] -- Detecting C compiler ABI info
+[2.591s] -- Detecting C compiler ABI info - done
+[2.597s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.598s] -- Detecting C compile features
+[2.609s] -- Detecting C compile features - done
+[2.612s] -- Detecting CXX compiler ABI info
+[2.750s] -- Detecting CXX compiler ABI info - done
+[2.757s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.757s] -- Detecting CXX compile features
+[2.757s] -- Detecting CXX compile features - done
+[2.808s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[3.157s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.399s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.584s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.584s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.585s] -- Added test 'lint_cmake' to check CMake code style
+[3.586s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.589s] -- Added test 'xmllint' to check XML markup files
+[3.591s] -- Configuring done
+[3.594s] -- Generating done
+[3.595s] -- Build files have been written to: /home/sathvik/git/Ros2/drone/build/package
+[3.599s] Invoked command in '/home/sathvik/git/Ros2/drone/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/sathvik/git/Ros2/drone/src/package -DCMAKE_INSTALL_PREFIX=/home/sathvik/git/Ros2/drone/install/package
+[3.600s] Invoking command in '/home/sathvik/git/Ros2/drone/build/package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/sathvik/git/Ros2/drone/build/package -- -j4 -l4
+[3.634s] Invoked command in '/home/sathvik/git/Ros2/drone/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/sathvik/git/Ros2/drone/build/package -- -j4 -l4
+[3.659s] Invoking command in '/home/sathvik/git/Ros2/drone/build/package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/sathvik/git/Ros2/drone/build/package
+[3.665s] -- Install configuration: ""
+[3.666s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/launch
+[3.666s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/launch/launch.py
+[3.666s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/urdf
+[3.666s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/urdf/drone.urdf
+[3.666s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/ament_index/resource_index/package_run_dependencies/package
+[3.666s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/ament_index/resource_index/parent_prefix_path/package
+[3.666s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/environment/ament_prefix_path.sh
+[3.667s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/environment/ament_prefix_path.dsv
+[3.667s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/environment/path.sh
+[3.667s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/environment/path.dsv
+[3.667s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/local_setup.bash
+[3.667s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/local_setup.sh
+[3.667s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/local_setup.zsh
+[3.667s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/local_setup.dsv
+[3.667s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/package.dsv
+[3.668s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/ament_index/resource_index/packages/package
+[3.668s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/cmake/packageConfig.cmake
+[3.668s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/cmake/packageConfig-version.cmake
+[3.668s] -- Installing: /home/sathvik/git/Ros2/drone/install/package/share/package/package.xml
+[3.670s] Invoked command in '/home/sathvik/git/Ros2/drone/build/package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/sathvik/git/Ros2/drone/build/package

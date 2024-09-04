@@ -405,7 +405,7 @@
      <gazebo reference ="base_link" >
          <mu1>0.2</mu1>
          <mu2>0.2</mu2>
-         <material>Gazebo/White</material>
+         <material>Gazebo/Grey</material>
      </gazebo>
 
      <gazebo reference ="arm1" >
@@ -436,28 +436,49 @@
      <gazebo reference ="motor1" >
          <mu1>0.2</mu1>
          <mu2>0.2</mu2>
-         <material>Gazebo/Black</material>
+         <material>Gazebo/Grey</material>
      </gazebo>
 
      <gazebo reference ="motor2" >
          <mu1>0.2</mu1>
          <mu2>0.2</mu2>
-         <material>Gazebo/Black</material>
+         <material>Gazebo/Grey</material>
      </gazebo>
 
      <gazebo reference ="motor3" >
          <mu1>0.2</mu1>
          <mu2>0.2</mu2>
-         <material>Gazebo/Black</material>
+         <material>Gazebo/Grey</material>
      </gazebo>
 
      <gazebo reference ="motor4" >
          <mu1>0.2</mu1>
          <mu2>0.2</mu2>
-         <material>Gazebo/Black</material>
+         <material>Gazebo/Grey</material>
      </gazebo> 
  
-     
+     <gazebo reference ="p1" >
+            <mu1>0.2</mu1>
+            <mu2>0.2</mu2>
+            <material>Gazebo/Grey</material>
+     </gazebo>
 
+     <gazebo reference ="p2" >
+            <mu1>0.2</mu1>
+            <mu2>0.2</mu2>
+            <material>Gazebo/Grey</material>
+     </gazebo>
+
+     <gazebo reference ="p3" >
+            <mu1>0.2</mu1>
+            <mu2>0.2</mu2>
+            <material>Gazebo/Grey</material>
+     </gazebo>
+
+     <gazebo reference ="p4" >
+            <mu1>0.2</mu1>
+            <mu2>0.2</mu2>
+            <material>Gazebo/Grey</material>
+     </gazebo>
 
 </robot>

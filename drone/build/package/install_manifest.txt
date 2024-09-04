@@ -1,6 +1,7 @@
 /home/sathvik/git/Ros2/drone/install/package/share/package/launch/launch.py
-/home/sathvik/git/Ros2/drone/install/package/share/package/urdf/.drone.urdf.swp
+/home/sathvik/git/Ros2/drone/install/package/share/package/urdf/no_roof_small_warehouse.world
 /home/sathvik/git/Ros2/drone/install/package/share/package/urdf/drone.urdf
+/home/sathvik/git/Ros2/drone/install/package/share/package/urdf/file.world
 /home/sathvik/git/Ros2/drone/install/package/share/ament_index/resource_index/package_run_dependencies/package
 /home/sathvik/git/Ros2/drone/install/package/share/ament_index/resource_index/parent_prefix_path/package
 /home/sathvik/git/Ros2/drone/install/package/share/package/environment/ament_prefix_path.sh
